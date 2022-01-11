@@ -1,40 +1,45 @@
 window.onload = ztsaChoose;
 
-  var common30x25 = new Array(
-  {imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A-1_588aaf4a.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/1029General300x250A_bb1b507f.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General300x250A_c8804f01.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General300x250A1_b9b491e0.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/300x250/300x250BW.png", affLink:"https://bit.ly/3gW7ocf"})
-  
-  
-  var commonFooter = new Array(
-  {imgLink:"https://www.ledgerwallet.com/affiliate/image/728/90", affLink:"https://bit.ly/32IYH36"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B_51d1d2fd.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B-1_2a5804d8.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/1029General728x90B_eda81ffe.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General728x90B_d8ddd580.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General728x90B1_0aa3e592.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/728x90/728x90BW.png", affLink:"https://bit.ly/3gW7ocf"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/760x80/760x80BW.png", affLink:"https://bit.ly/3gW7ocf"})
-  
-  var commonSolos = new Array(
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9_7894bae7.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9-1_c606993b.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General16X9_427703e6.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General16X91_fae23d3a.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/430x288/430x288BW.png", affLink:"https://bit.ly/3gW7ocf"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/430x288/430x288PW.png", affLink:"https://bit.ly/3gW7ocf"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/488x160/488x160BW.png", affLink:"https://bit.ly/3gW7ocf"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/620x203/620x203BW.png", affLink:"https://bit.ly/3gW7ocf"},
-  {imgLink:"https://i.ibb.co/ThQdjqW/H-LEDDevice-EMAILGraphics-150dpi-01.jpg", affLink:"https://bit.ly/3FYqKK8"},
-  {imgLink:"https://i.ibb.co/86BgJVC/H-LEDDevice-EMAILGraphics-150dpi-02.jpg", affLink:"https://bit.ly/3FYqKK8"},
-  {imgLink:"https://i.ibb.co/dMWpTty/PLOLifestyle-4-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
-  {imgLink:"https://i.ibb.co/RQjwFsP/PLOLifestyle-5-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
-  {imgLink:"https://i.ibb.co/8bJJLkb/PLOLifestyle-8-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
-  {imgLink:"https://i.ibb.co/7VVTqjQ/PLOLifestyle-9-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"})
+var common30x25 = new Array(
+{imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A-1_588aaf4a.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/1029General300x250A_bb1b507f.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General300x250A_c8804f01.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General300x250A1_b9b491e0.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/300x250/300x250BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://i.ibb.co/TcjWJr4/EN-300x250.png", affLink:"https://bit.ly/3Fhf5Fa"},
+{imgLink:"https://i.ibb.co/JpxxXVN/resized.png", affLink:"https://bit.ly/3feGBIU"})
+
+var commonFooter = new Array(
+{imgLink:"https://www.ledgerwallet.com/affiliate/image/728/90", affLink:"https://bit.ly/32IYH36"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B_51d1d2fd.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B-1_2a5804d8.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/1029General728x90B_eda81ffe.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General728x90B_d8ddd580.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General728x90B1_0aa3e592.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/728x90/728x90BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/760x80/760x80BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://i.ibb.co/64vYqjj/buy-crypto-banner-728x90-Eng.png", affLink:"https://bit.ly/3Fhf5Fa"},
+{imgLink:"https://i.ibb.co/Q8hYV1P/728x90-EN.png", affLink:"https://bit.ly/3feGBIU"})
+
+var commonSolos = new Array(
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9_7894bae7.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9-1_c606993b.jpg", affLink:"https://bit.ly/3pUYSAX"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General16X9_427703e6.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General16X91_fae23d3a.jpg", affLink:"https://bit.ly/3FWSkYj"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/430x288/430x288BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/430x288/430x288PW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/488x160/488x160BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/620x203/620x203BW.png", affLink:"https://bit.ly/3gW7ocf"},
+{imgLink:"https://i.ibb.co/ThQdjqW/H-LEDDevice-EMAILGraphics-150dpi-01.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/86BgJVC/H-LEDDevice-EMAILGraphics-150dpi-02.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/dMWpTty/PLOLifestyle-4-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/RQjwFsP/PLOLifestyle-5-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/8bJJLkb/PLOLifestyle-8-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/7VVTqjQ/PLOLifestyle-9-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
+{imgLink:"https://i.ibb.co/DWgT5tV/336x280-Eng.png", affLink:"https://bit.ly/3Fhf5Fa"},
+{imgLink:"https://i.ibb.co/6wDQXq8/336x280-EN.png", affLink:"https://bit.ly/3feGBIU"})
   
   var ztsa30x25 = new Array(
     {imgLink:"https://s3.amazonaws.com/bei/hso/Party/SaladParty_300x250.gif", affLink:"https://bit.ly/2SbV0gX"},
